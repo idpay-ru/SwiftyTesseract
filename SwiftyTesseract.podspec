@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name                     = "SwiftyTesseract"
-  s.version                  = "4.1.0"
+  s.version                  = "4.1.1"
   s.summary                  = "A Swift wrapper around Tesseract for use in iOS applications."
 
   s.swift_versions           = "5.3"
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 
   s.platform                 = :ios
 
-  s.source                   = { :git => "https://github.com/SwiftyTesseract/SwiftyTesseract.git", :tag => "#{s.version}" }
+  s.source                   = { :git => "https://github.com/idpay-ru/SwiftyTesseract.git", :tag => "#{s.version}" }
   s.source_files             = "Sources/SwiftyTesseract/*.swift"
 
   s.frameworks               = "UIKit"
